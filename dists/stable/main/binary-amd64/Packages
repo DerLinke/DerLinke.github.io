@@ -12,3 +12,32 @@ Priority: optional
 Homepage: https://github.com/DerLinke/FinDeb
 Description: The Universal Package Manager Wrapper
 
+Package: mydash
+Version: 0.1.0
+Architecture: amd64
+Maintainer: Daniel Frey <https://github.com/DerLinke>
+Depends: python3, python3-rich, python3-psutil
+Filename: pool/main/mydash_0.1.0_amd64.deb
+Size: 4160
+MD5sum: 963c6364aea84ea7727b24fcb0d30a49
+SHA1: 49f7fb6de544cd5469f57d1d050fe0e03ecccc61
+SHA256: 774c972d4f4279b0073b5f3fe1e209dba5daa1f54c7f0f080132320497b398cf
+Section: utils
+Priority: optional
+Description: Minimalist CLI dashboard for system metrics
+
+Package: ultimate-debian-updater
+Version: 2.8.1
+Architecture: amd64
+Maintainer: Daniel Frey <https://github.com/DerLinke>
+Depends: bash, apt, curl, wget, git
+Conflicts: update
+Filename: pool/main/ultimate-debian-updater_2.8.1_amd64.deb
+Size: 10220
+MD5sum: a4da7dfd5a8a9de1e046b599167683fa
+SHA1: 30b2576c33cdce62b212c3e18c592cbf95b2cbff
+SHA256: 4f79189914025c229c669378ccd1d90cc5519bef37a2969fc95e0ace0ef1f085
+Section: utils
+Priority: optional
+Description: Automated, intelligent update system for Debian-based systems
+

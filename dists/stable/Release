@@ -6,5 +6,5 @@ Architectures: amd64
 Components: main
 Description: Zentrales Repository für FinDeb, MyDash und Ultimate-Debian-Updater
 MD5Sum:
- e11a38a619af097f90917cb9f5ab033f 455 main/binary-amd64/Packages
- 9b82e8c63407cfc64b4835f1e141feb8 349 main/binary-amd64/Packages.gz
+ 8b82c53a3929930d124ff86bd05b7eba 1433 main/binary-amd64/Packages
+ 9d21efdcceaa4d57766c74accc9dcf49 728 main/binary-amd64/Packages.gz
