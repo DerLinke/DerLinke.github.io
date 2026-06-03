@@ -76,8 +76,24 @@
             padding: 15px; 
             border-left: 3px solid var(--brand-blue);
             transition: 0.3s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         .pkg-item:hover { border-left-color: var(--brand-magenta); background: #1a1a1a; }
+        .pkg-info { flex-grow: 1; }
+        .pkg-link {
+            margin-left: 20px;
+            opacity: 0.7;
+            transition: 0.3s;
+        }
+        .pkg-link:hover { opacity: 1; transform: scale(1.1); }
+        .github-icon {
+            fill: var(--text-color);
+            width: 24px;
+            height: 24px;
+        }
+        
         code { background: #222; padding: 2px 5px; color: var(--brand-magenta); }
         .setup-box { background: #000; border: 1px dashed var(--brand-blue); padding: 20px; margin: 20px 0; font-size: 0.9em; }
         footer { margin-top: 50px; font-size: 0.8em; border-top: 1px solid #333; padding-top: 20px; color: #666; }
@@ -106,13 +122,36 @@
             <h2>Verfügbare Pakete</h2>
             <ul class="pkg-list">
                 <li class="pkg-item">
-                    <strong>FinDeb</strong> – Der universelle Package Manager Wrapper.
+                    <div class="pkg-info">
+                        <strong>FinDeb</strong> – Der universelle Package Manager Wrapper.
+                    </div>
+                    <a href="https://github.com/DerLinke/FinDeb" class="pkg-link" title="Zum GitHub Repository" target="_blank">
+                        <svg class="github-icon" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+                    </a>
                 </li>
                 <li class="pkg-item">
-                    <strong>Ultimate-Debian-Updater</strong> – Automatisiertes, intelligentes Update-System.
+                    <div class="pkg-info">
+                        <strong>Ultimate-Debian-Updater</strong> – Automatisiertes, intelligentes Update-System.
+                    </div>
+                    <a href="https://github.com/DerLinke/Ultimate-Debian-Updater" class="pkg-link" title="Zum GitHub Repository" target="_blank">
+                        <svg class="github-icon" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+                    </a>
                 </li>
                 <li class="pkg-item">
-                    <strong>MyDash</strong> – Minimalistisches CLI-Dashboard für System-Metriken.
+                    <div class="pkg-info">
+                        <strong>MyDash</strong> – Minimalistisches CLI-Dashboard für System-Metriken.
+                    </div>
+                    <a href="https://github.com/DerLinke/mydash" class="pkg-link" title="Zum GitHub Repository" target="_blank">
+                        <svg class="github-icon" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+                    </a>
+                </li>
+                <li class="pkg-item">
+                    <div class="pkg-info">
+                        <strong>gAlert</strong> – Freesound CLI Sound Installer für Linux.
+                    </div>
+                    <a href="https://github.com/DerLinke/gAlert" class="pkg-link" title="Zum GitHub Repository" target="_blank">
+                        <svg class="github-icon" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+                    </a>
                 </li>
             </ul>
         </section>

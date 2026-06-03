@@ -3,10 +3,10 @@ Version: 1.1.0
 Architecture: amd64
 Maintainer: Daniel Frey <https://github.com/DerLinke>
 Filename: pool/main/findeb_1.1.0_amd64.deb
-Size: 13485200
-MD5sum: 5a0e98a42261ec6f55ea0b850c032790
-SHA1: 5f55beeda80850f5cefac5975ccd49cc0a03e2fe
-SHA256: 669861830a485a0991ea02c3625352db20b9ff03c2644a5d6db6c53fb271dec5
+Size: 13485000
+MD5sum: 397ce4c2621337f507c5071cd380cd6f
+SHA1: 9264c3ee0a72b991e0b48ead2dcc296b1048b761
+SHA256: aae29a86b5c6e57e8c6f41d31a1b649b545b6a56b7ae65db5f47393d6660cc9a
 Section: utils
 Priority: optional
 Homepage: https://github.com/DerLinke/FinDeb
