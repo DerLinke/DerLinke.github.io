@@ -3,10 +3,10 @@ Version: 1.1.0
 Architecture: amd64
 Maintainer: Daniel Frey <https://github.com/DerLinke>
 Filename: pool/main/findeb_1.1.0_amd64.deb
-Size: 13487860
-MD5sum: d25b85a00a4311edfb7c880b82eb7920
-SHA1: 2e319e6af461a6a0d70c13216141ca50d0f67cf8
-SHA256: 2782e1a7b0a5bb394a40a2bb69c07f032a42b5dc53db62527563a819e332ee4c
+Size: 13485200
+MD5sum: 5a0e98a42261ec6f55ea0b850c032790
+SHA1: 5f55beeda80850f5cefac5975ccd49cc0a03e2fe
+SHA256: 669861830a485a0991ea02c3625352db20b9ff03c2644a5d6db6c53fb271dec5
 Section: utils
 Priority: optional
 Homepage: https://github.com/DerLinke/FinDeb
@@ -35,10 +35,10 @@ Architecture: amd64
 Maintainer: Daniel Frey <https://github.com/DerLinke>
 Depends: python3, python3-rich, python3-psutil
 Filename: pool/main/mydash_0.1.0_amd64.deb
-Size: 4160
-MD5sum: 963c6364aea84ea7727b24fcb0d30a49
-SHA1: 49f7fb6de544cd5469f57d1d050fe0e03ecccc61
-SHA256: 774c972d4f4279b0073b5f3fe1e209dba5daa1f54c7f0f080132320497b398cf
+Size: 4648
+MD5sum: 460881cf5822d41ddecf2edce6d2f529
+SHA1: e440789729f5ff15b8515f66ad3629e15899b9a7
+SHA256: c2ae25861db5b71fae23932b809d9fcf20d5a8b01afa4460d72be20d983a2eac
 Section: utils
 Priority: optional
 Description: Minimalist CLI dashboard for system metrics

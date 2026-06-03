@@ -2,13 +2,13 @@ Origin: DerLinke
 Label: DerLinke Software Repository
 Suite: stable
 Codename: stable
-Date: Wed, 03 Jun 2026 20:42:40 +0000
+Date: Wed, 03 Jun 2026 21:22:04 +0000
 Architectures: amd64
 Components: main
 Description: Zentrales Repository für FinDeb, MyDash, gAlert und Ultimate-Debian-Updater
 MD5Sum:
- 596b78ec3b9322bdc5a8057574468583 2063 main/binary-amd64/Packages
- 2e4818ce0a754b1a944b230902d9fa1c 1021 main/binary-amd64/Packages.gz
+ dce52ca11f810b5a1214644579d8047f 2063 main/binary-amd64/Packages
+ f50460e1b5ef37e2dc8c6824109d47a4 1023 main/binary-amd64/Packages.gz
 SHA256:
- a5e6ce7457b99b646c56026f5a40a09ca5b631fd775a790b7f15cbd0a4e48ded 2063 main/binary-amd64/Packages
- 9fc8cfa3d96543302571edf01e80bfcb44c65ff0dea8beeeaec35e0c12370843 1021 main/binary-amd64/Packages.gz
+ 2aa3682833d4b89a00cee35b94436452787e4f7565e60e6e570097f3c8c8df7d 2063 main/binary-amd64/Packages
+ 0e9231e0eb07fa2fd8909d6d52c022aa656e915aeb8a72ebda4062dc1123285b 1023 main/binary-amd64/Packages.gz
