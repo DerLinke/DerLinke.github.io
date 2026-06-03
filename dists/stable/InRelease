@@ -5,29 +5,29 @@ Origin: DerLinke
 Label: DerLinke Software Repository
 Suite: stable
 Codename: stable
-Date: Wed, 03 Jun 2026 21:22:04 +0000
+Date: Wed, 03 Jun 2026 21:22:21 +0000
 Architectures: amd64
 Components: main
 Description: Zentrales Repository für FinDeb, MyDash, gAlert und Ultimate-Debian-Updater
 MD5Sum:
- dce52ca11f810b5a1214644579d8047f 2063 main/binary-amd64/Packages
- f50460e1b5ef37e2dc8c6824109d47a4 1023 main/binary-amd64/Packages.gz
+ e8e578d1a4494a1bae9beec65ad5a78d 1923 main/binary-amd64/Packages
+ a0591c2e5555a40d9f6c393ad7fa706d 898 main/binary-amd64/Packages.gz
 SHA256:
- 2aa3682833d4b89a00cee35b94436452787e4f7565e60e6e570097f3c8c8df7d 2063 main/binary-amd64/Packages
- 0e9231e0eb07fa2fd8909d6d52c022aa656e915aeb8a72ebda4062dc1123285b 1023 main/binary-amd64/Packages.gz
+ 85466509a21989b9614bf719c1c0831d784fe93916ab8b7b06c45b7476ff7d69 1923 main/binary-amd64/Packages
+ 1ef4465588afd77a24b4885cb5e23ea6dfa220562fc301586c5a6a1053d9a2c9 898 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEE5aIWmotBxzgmrk3xBe5foqO6+N4FAmogmvwACgkQBe5foqO6
-+N5uKxAA0CgAY+Mo7ApFE7EZvooKfXvBE2lDrEoUPu3tsWIZF6eClV7jYLtSE2UT
-WNW/+/Ue9lrlVR7mKBLQZ7gTeoe6e8abLZXJasJW7V1lh5bL2uEt8/diYIupCMjH
-yAHpVG7dBVD8cGGYNVP9e6iqdP5X9N9bCbCzJeqGPn6B+jbUvisESfmbtZdqhRtZ
-Dq2Og6O14hCfJRNS2gzx0cIrigZ2RBpyB0IJa8Dv2RZtlVq9U3alSa8H81oeWQj+
-k1stsJkZfm6dRnvSGO2UuDoTSrySB8DARIQdh2+DxElaiNE10HSGJ1B7jX6oaQDL
-PepOnpEDayIrnJqeUZ2P4j0BzqkYv/55to3ZvI1evP9tcv0EAtWn7nVc7iF3ZJdP
-IPEcvLZJ2vt3FVWGlbsWng6ktYOknRGzWZYSzkwcDpmfZPHYxUK9cSlZyaOdwCg4
-NSThT+mYIlwmwKDaizDCXbhjcmty1P8bfl5L6br7Wq4yLwS0S6uh1XxDQaCTpA0u
-OkmURXBt8fGvAFqPtwpKaTYcDLtlGnE3IXzVTEiN3YOFnUK4bsH6ccuDdk2wSDB8
-eMnMeBEyYQK7wR+WiXVYP1s2rjpjOKbF0GAdHO9PbtXV3ziRuCJFOU7/4lbU64BR
-pdwhGTSq0P0FN9Cj4gCteCYvQ3qgurS82lJENTMG3WOnumZ+K2A=
-=077S
+iQIzBAEBCAAdFiEE5aIWmotBxzgmrk3xBe5foqO6+N4FAmogmw0ACgkQBe5foqO6
++N6k8w/+NV3bw0/ViVHrBpr2x1VjN9Fu9Q29YEB6bop8xg/LrioMVTWmEeTEGdp7
+Ex2GIZP0FAHCCePICs3wFDwEFOEAh8cPj+4lm1Da7JgFAqnH+PiYcRs7MwVqV9L/
+YXCttUb8SBD7lRATMMMNGdvaw2dBTRjEirFUA6iy4dKWuOwyt4AJ+5BS/EnW9s93
+L1C9MFDpGiaBamzH+pgmXRxhmzx/DXDvbygNE3qy9inbbbDNA1hbUa3CgstrTVN2
+5R+kAzeydgTywLL54fJUZ71No8Xn+bXefn9fUzBEppw/SbeT9NHhK2A/41j6yQDa
+D1jRZ/7vuKGJgfLI0UoM+2Atd96p1WyDiacDr0NDJ6Y6X+7oyHE2f/Zdlo83AWDp
+qRmmvXcscoR/5wW+75mdxCKtyMnmOIlrOTSek3XfWaAhAnrfZ01eRLrBEFUVWO4R
+wa07Rab+cE+0C7P+AIkm23FnMbAliFY1tdETsz2h1Haxej0e4JvyEbKeiUFiw/hl
+Mpw24gQ+m5lLRdfvJUJn+s+vmKwjHIvR4G1FlxQUQ2Dbc6kbVgJFKi6yr8cn+Yem
+Vgrg2RNG63pquHPc94znL6pb0OVzWl5NwlnXFfnWZhjUoR8Z2OE8cm0oQDcaHRHA
+WcnpJARkgrl1UkSrr8LmdzcxhCBBGM8kKUWdPIQAS5G7Lw0sKFY=
+=zHWh
 -----END PGP SIGNATURE-----

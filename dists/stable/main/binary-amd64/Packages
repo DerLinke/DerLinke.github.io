@@ -13,21 +13,18 @@ Homepage: https://github.com/DerLinke/FinDeb
 Description: The Universal Package Manager Wrapper
 
 Package: galert
-Version: 1.0.0-1
-Architecture: all
-Maintainer: DerLinke <derlinke@users.noreply.github.com>
-Installed-Size: 20
-Depends: python3, python3-requests, python3-rich, pulseaudio-utils, vorbis-tools
-Filename: pool/main/galert_1.0.0-1_all.deb
-Size: 5204
-MD5sum: 1d6e0a2ff36452f19e4b3ad2b4f4ac98
-SHA1: 68610beab99696b300d3ce1e75851e669329ed8e
-SHA256: b03d2d25fb13cbc956297c67c3707e7964e008bd5e065ba898d46ef5b40697bb
+Version: 1.1.0
+Architecture: amd64
+Maintainer: Daniel Frey <https://github.com/DerLinke>
+Depends: python3, python3-requests, python3-rich, pulseaudio-utils | vorbis-tools
+Filename: pool/main/galert_1.1.0_amd64.deb
+Size: 6988
+MD5sum: ed11f09c5d8678ca2d857012d591681a
+SHA1: d1d3cfcf4b64eec2f9ba28a2d7fa98b6c3dcad4d
+SHA256: 1e35e30277d35b1ec6f9d33998b7fc333171bea546aef3ec6a46af880321c655
 Section: utils
 Priority: optional
-Description: Freesound Systemsound Installer CLI
- A command-line tool to search, preview, and install free sounds
- from freesound.org as local desktop notification sounds.
+Description: Freesound CLI Sound Installer for Linux
 
 Package: mydash
 Version: 0.1.0
