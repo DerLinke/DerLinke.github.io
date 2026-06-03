@@ -1,0 +1,40 @@
+Dies ist ein Widerrufszertifikat für den OpenPGP Schlüssel:
+
+pub   rsa4096 2026-06-03 [SCEAR]
+      18B1A0E8CFCC67E5F313C1E5ABC9EEBEBEA1C168
+uid          DerLinke Repository <dan@localhost>
+
+Ein Widerrufszertifikat ist eine Art von Notausschalter der öffentlich
+verlautbart, daß ein Schlüssel nicht mehr benutzt werden soll.  Es ist
+nicht möglich, ein einmal veröffentlichtes Widerrufszertifikat wieder
+zurückzuziehen.
+
+Benutzen Sie es, um einen Schlüssel zu widerrufen, falls der private
+Schlüssel verloren wurde oder kompromittiert ist.  Falls jedoch auf
+den privaten Schlüssel noch zugegriffen werden kann, so ist es besser,
+ein neues Widerrufszertifikat zu erzeugen, um den Grund des Widerrufs
+mit angeben zu können.  Weitere Informationen finden Sie im GnuPG
+Handbuch unter der Beschreibung des gpg Kommandos "--generate-revocation".
+
+Um eine versehentliche Aktivierung des Widerrufszertifikats zu
+vermeiden, wurde ein Doppelpunkt direkt vor den 5 Spiegelstrichen
+unten eingefügt.  Vor dem Import dieses Widerrufszertifikats
+entfernen Sie bitte diesen Doppelpunkt mittels eines Texteditors.
+
+:-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: This is a revocation certificate
+
+iQI2BCABCgAgFiEEGLGg6M/MZ+XzE8Hlq8nuvr6hwWgFAmogOU8CHQAACgkQq8nu
+vr6hwWj2LRAAkr5SKXadn3R1izx5uN2ly8BqfIKpJaovNTmCSyL4zGtQ3z4eZhJI
+QiFSi4SlpG/KvVhygC0OV1MxyhJbi197tOFcBT5VFvpYaDAxkIvelU6cubDtMoxl
+wgLv+CMeRPAPgiqd3H4Sgc6Mom1SgBMWi9AomHtHYd5Ar2MDk1e/mmHiFXC0XTFl
+GpgtsewBG+yQWh/ySg6IODPRLefYK1x84YursyRXX7mSoPPtQs87anfBxwjZeWfq
+4SPOh3sZetOVTSqJ60BAHSzay6TXeLn/U/sBMtohvOV124PmPT4XlKV/iMmknw9U
+LKprBOXYg5KrNp4PukmLbUeWt/ER58VPIWiP6NzzDpEksTokeHA3L3Ig0TS9CSFj
+674j0BH5KN7hinG2ZGwrp5SfQEhhqg/9TaqjBT2o+5IS+7c9aC7nndSX+RMUOppk
+guCPaL3EZcjkdhQZKO+ObycBq537bTZ+0N2juVrqSzmsfSPi3HfoTo1cGC28cQ3C
+zUT+0rfJwcV4z2i6a0xXBSRtg/oyCwYtTTIdhix37dtkZmTOpWQLsw+aUEUIIlw9
+EvhypDDnE0nZaLZxWoakT0JNfJjPIBbVoh3KpJDf2GoD73UAvjV1i51Aku36XRyJ
+aowOZgVQatbjWInUf8t4P6eHvd0MUlcdxG2vsXcAVh+Eam0UHxyY3GI=
+=sV3e
+-----END PGP PUBLIC KEY BLOCK-----

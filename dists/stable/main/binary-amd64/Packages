@@ -1,0 +1,14 @@
+Package: findeb
+Version: 1.1.0
+Architecture: amd64
+Maintainer: Daniel Frey <https://github.com/DerLinke>
+Filename: pool/main/findeb_1.1.0_amd64.deb
+Size: 13487860
+MD5sum: d25b85a00a4311edfb7c880b82eb7920
+SHA1: 2e319e6af461a6a0d70c13216141ca50d0f67cf8
+SHA256: 2782e1a7b0a5bb394a40a2bb69c07f032a42b5dc53db62527563a819e332ee4c
+Section: utils
+Priority: optional
+Homepage: https://github.com/DerLinke/FinDeb
+Description: The Universal Package Manager Wrapper
+

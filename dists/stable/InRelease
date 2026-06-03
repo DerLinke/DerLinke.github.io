@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: DerLinke
+Label: DerLinke Software Repository
+Suite: stable
+Codename: stable
+Architectures: amd64
+Components: main
+Description: Zentrales Repository für FinDeb, MyDash und Ultimate-Debian-Updater
+MD5Sum:
+ e11a38a619af097f90917cb9f5ab033f 455 main/binary-amd64/Packages
+ 9b82e8c63407cfc64b4835f1e141feb8 349 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEE5aIWmotBxzgmrk3xBe5foqO6+N4FAmogOV4ACgkQBe5foqO6
++N52yg//WShRbZRVd4knf0QU5MW7PowZwFVPvbfLN1Ek9unvjZSxVr+jO42V6A4P
+8R1XCx9eGac4Oau50jsCO4izv9Y+E8WFxHRCvYDE0F/rhK2V0yj4GRZvJPVX1QHo
+/PPeethiiMhrw/mc6is6bMfHjY8ZDWiRdQYsu9431dqDuDsNzhjImgrmpmDkSgp8
+hExcN0LLMyKac6IPTZPWPvKQ1LLTGHAGa2nURwWmcWp6ZasUt56VYRFJNOrtLqkg
+PNddG5GScnvFnnXbb78jLE4A4v3mqElHa5POIqtR9lmM4bWahHGr8B8plndWoj+f
+5SbQRrWDXuaXSAaotQK41rEYNhqhdndGWLmJQZGFYGd3lc+ISrNo1uv++jyqZdvq
+z2NJU60Ff7uH5BhJAJchTiRH1B/W5PT1sg9pRVX3101yoIk03XrqbGdcDpDYE5YE
+tFisKk3kwLR1sl5yqs0cQwhuz2LGGNGmj35j8b14OdhGg2w2YL57tCJ0WleDnVsG
+F3OCl0EPipw5boiYKhZNXLTrf/61diokxWO68biFs7nRqMenT+9LhprG961pEbIw
+rLSeWusisnBHbSQ3wjrP8cKmFq/w3GdVYQafO+Tdxqd8ZwW9vzc0pMNkvALK+acS
+SdrQQbsBdkcKNT6hQGajHMyQO69nLkPbWLl8sOEVeFTk3pTBv0Q=
+=ntql
+-----END PGP SIGNATURE-----
