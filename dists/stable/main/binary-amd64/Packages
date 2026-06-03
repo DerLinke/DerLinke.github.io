@@ -3,10 +3,10 @@ Version: 1.1.0
 Architecture: amd64
 Maintainer: Daniel Frey <https://github.com/DerLinke>
 Filename: pool/main/findeb_1.1.0_amd64.deb
-Size: 13485000
-MD5sum: 397ce4c2621337f507c5071cd380cd6f
-SHA1: 9264c3ee0a72b991e0b48ead2dcc296b1048b761
-SHA256: aae29a86b5c6e57e8c6f41d31a1b649b545b6a56b7ae65db5f47393d6660cc9a
+Size: 13485264
+MD5sum: 2adf05e3c04d7f46e0fb071860ef3cb5
+SHA1: 3188a279362036cca4115115b491766162dd84ec
+SHA256: 73e28102455a3d812b1bcf143993ed24788cca0c7732b292d4264bec0890f9cb
 Section: utils
 Priority: optional
 Homepage: https://github.com/DerLinke/FinDeb
@@ -19,9 +19,9 @@ Maintainer: Daniel Frey <https://github.com/DerLinke>
 Depends: python3, python3-requests, python3-rich, pulseaudio-utils | vorbis-tools
 Filename: pool/main/galert_1.1.0_amd64.deb
 Size: 6988
-MD5sum: ed11f09c5d8678ca2d857012d591681a
-SHA1: d1d3cfcf4b64eec2f9ba28a2d7fa98b6c3dcad4d
-SHA256: 1e35e30277d35b1ec6f9d33998b7fc333171bea546aef3ec6a46af880321c655
+MD5sum: 54b72ca5ea24f91348565acc69ad0ce7
+SHA1: e0d6d45e285a4c4768aaaa05570c0d30a5928f53
+SHA256: bc69fc6a147c6388171e86bf28d7b787957ad6928d6c4089eb82c7195b0097a4
 Section: utils
 Priority: optional
 Description: Freesound CLI Sound Installer for Linux
@@ -32,25 +32,25 @@ Architecture: amd64
 Maintainer: Daniel Frey <https://github.com/DerLinke>
 Depends: python3, python3-rich, python3-psutil
 Filename: pool/main/mydash_0.1.0_amd64.deb
-Size: 4648
-MD5sum: 460881cf5822d41ddecf2edce6d2f529
-SHA1: e440789729f5ff15b8515f66ad3629e15899b9a7
-SHA256: c2ae25861db5b71fae23932b809d9fcf20d5a8b01afa4460d72be20d983a2eac
+Size: 4644
+MD5sum: eb52a2e0ac39beb01cad3e559c6f5126
+SHA1: 5725f157eb578619579139ded735605b6b5abf02
+SHA256: 218e91341d9bf59ea0f0eea19d561122dbde57d7aa7ae7c3651230ec31924d25
 Section: utils
 Priority: optional
 Description: Minimalist CLI dashboard for system metrics
 
 Package: ultimate-debian-updater
-Version: 2.8.1
+Version: 2.8.2
 Architecture: amd64
 Maintainer: Daniel Frey <https://github.com/DerLinke>
 Depends: bash, apt, curl, wget, git
 Conflicts: update
-Filename: pool/main/ultimate-debian-updater_2.8.1_amd64.deb
-Size: 10220
-MD5sum: a4da7dfd5a8a9de1e046b599167683fa
-SHA1: 30b2576c33cdce62b212c3e18c592cbf95b2cbff
-SHA256: 4f79189914025c229c669378ccd1d90cc5519bef37a2969fc95e0ace0ef1f085
+Filename: pool/main/ultimate-debian-updater_2.8.2_amd64.deb
+Size: 8852
+MD5sum: 0aeb07a8c109c6ba2ccdc24ec76ac590
+SHA1: 0bde05f6fae3de6833ed8feb4fef545f3c657943
+SHA256: 79175fcc04ac7c185a78d27301391903d0b649ef6740e055f99f0356580a9c6f
 Section: utils
 Priority: optional
 Description: Automated, intelligent update system for Debian-based systems
