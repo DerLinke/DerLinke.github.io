@@ -163,7 +163,7 @@
                 # 1. GPG-Schlüssel hinzufügen<br>
                 <code>curl -s https://derlinke.github.io/derlinke-repo.gpg.key | gpg --dearmor | sudo tee /usr/share/keyrings/derlinke-repo.gpg > /dev/null</code><br><br>
                 # 2. Repository-Quelle eintragen<br>
-                <code>echo "deb [signed-by=/usr/share/keyrings/derlinke-repo.gpg] https://derlinke.github.io/ stable main" | sudo tee /etc/apt/sources.list.d/derlinke.list</code><br><br>
+                <code>echo "deb [arch=amd64 signed-by=/usr/share/keyrings/derlinke-repo.gpg] https://derlinke.github.io/ stable main" | sudo tee /etc/apt/sources.list.d/derlinke.list</code><br><br>
                 # 3. Paketliste aktualisieren<br>
                 <code>sudo apt update</code>
             </div>
