@@ -41,16 +41,16 @@ Priority: optional
 Description: Minimalist CLI dashboard for system metrics
 
 Package: ultimate-debian-updater
-Version: 2.8.2
+Version: 2.8.3
 Architecture: amd64
 Maintainer: Daniel Frey <https://github.com/DerLinke>
 Depends: bash, apt, curl, wget, git
 Conflicts: update
-Filename: pool/main/ultimate-debian-updater_2.8.2_amd64.deb
-Size: 8852
-MD5sum: 0aeb07a8c109c6ba2ccdc24ec76ac590
-SHA1: 0bde05f6fae3de6833ed8feb4fef545f3c657943
-SHA256: 79175fcc04ac7c185a78d27301391903d0b649ef6740e055f99f0356580a9c6f
+Filename: pool/main/ultimate-debian-updater_2.8.3_amd64.deb
+Size: 8848
+MD5sum: c0460eff579ce2723d8ee1aaf3e63cfb
+SHA1: 1985791590d62f8c9959b1202fc72375a5d6867f
+SHA256: 237731a2440af79ce2a6452635fad260d0778c96cbb8d6d668d93d172cdd8c1f
 Section: utils
 Priority: optional
 Description: Automated, intelligent update system for Debian-based systems
