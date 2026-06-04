@@ -8,10 +8,13 @@ mkdir -p "$REPO_DIR/dists/stable/main/binary-amd64"
 
 # Kopiere vorhandene .deb Pakete
 echo "󰚌 Sammle Pakete..."
-cp /home/dan/Projekte/findeb/findeb_1.1.0_amd64.deb "$REPO_DIR/pool/main/" 2>/dev/null || true
-cp /home/dan/Projekte/Ultimate-Debian-Updater/*.deb "$REPO_DIR/pool/main/" 2>/dev/null || true
-cp /home/dan/Projekte/mydash/*.deb "$REPO_DIR/pool/main/" 2>/dev/null || true
-cp /home/dan/Projekte/gAlert/*.deb "$REPO_DIR/pool/main/" 2>/dev/null || true
+# Vorher aufräumen, um keine alten Versionen zu behalten
+rm -f "$REPO_DIR/pool/main/"*.deb
+
+cp /home/dan/Projekte/findeb/findeb*.deb "$REPO_DIR/pool/main/" 2>/dev/null || true
+cp /home/dan/Projekte/Ultimate-Debian-Updater/ultimate-debian-updater*.deb "$REPO_DIR/pool/main/" 2>/dev/null || true
+cp /home/dan/Projekte/mydash/mydash*.deb "$REPO_DIR/pool/main/" 2>/dev/null || true
+cp /home/dan/Projekte/gAlert/galert*.deb "$REPO_DIR/pool/main/" 2>/dev/null || true
 
 # Erstelle APT-Indexe
 echo "󰚌 Generiere APT-Indexe..."

@@ -5,29 +5,29 @@ Origin: DerLinke
 Label: DerLinke Software Repository
 Suite: stable
 Codename: stable
-Date: Wed, 03 Jun 2026 22:11:06 +0000
+Date: Thu, 04 Jun 2026 19:38:59 +0000
 Architectures: amd64
 Components: main
 Description: Zentrales Repository für FinDeb, MyDash, gAlert und Ultimate-Debian-Updater
 MD5Sum:
  21fefff3f6ee48969f4ff2f250606048 1922 main/binary-amd64/Packages
- c9924764208934bf8ad7ae4f8af828c8 898 main/binary-amd64/Packages.gz
+ 279164ea916a39801506972d65eb4e18 898 main/binary-amd64/Packages.gz
 SHA256:
  241c916aa0ff35d7efa12aac4bbb183f0c2a12c8c2e476ce4f77810b33aaa15f 1922 main/binary-amd64/Packages
- 1cfd7ff544924b931f33fa06600fca7987288d987902f08beff299fe72bf5cef 898 main/binary-amd64/Packages.gz
+ 987c63a098623ec35d9fd15213e2019de119b11e6de108e69895898bbf52f215 898 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEE5aIWmotBxzgmrk3xBe5foqO6+N4FAmogpnoACgkQBe5foqO6
-+N5D8w/+I2KBvkjJurP/Ku/sVgVGkuxgBTQxgKToQVfe643yuPmXSL5KErqczi3V
-iDxe7DXTwHIQhhnt7syg9z1N9nLKQnNI/cu304rP5Z7pYPfwWCwmuX8z7kCgFqdB
-3H0HZTArFtsiC6SNVxBKs7jZMVW7nwgXpG5iXof0bSg6klywxaM01oq4x0OAtXwe
-Po/eZnmM5BCPsUDjPVt3kJDk7CVYTtRdnDOh7eQ/bnwAcj55tFkY2nuI9utCqm9I
-lCnMjXpL/7ivPy/dSoKIcu8IURmEzvpgKWfsBdjJMb+QgfBjSP8eUZ+t4EOajYzb
-15csnw2snyX/nmCPgrEwrQ3BmDdtqR4PLGGnU90nGYSsFHG/TVol7GVoHTdYih2m
-dQuFNxI2L/b4tjGnzJkFNuX2N8Hj5zhcrEVbUI3FrCDDpY8oP+GXTHXMK7O8p4tW
-Qr9Tomltq+97o5kHR1OmItygu9bvAm2qKzfJbGIyLtfE0d7bkuyh6y5lqETi8osF
-zo/UrzdL1niZgvtoKvct6Lydjlb2Xdw8foKCYniuxvxtfG5KKRQcvkM7z2rZz260
-efWI7txOIl9M/ULWFaQWnL7rFJLjrdfNgT0F241Q4FThbCfvPcYr5IL95eaBspiB
-LwF39ApOcNR//ujLSaV9qRPyS/AIL24FLV+eE2VYYy59KfcQzYU=
-=JawP
+iQIzBAEBCAAdFiEE5aIWmotBxzgmrk3xBe5foqO6+N4FAmoh1FMACgkQBe5foqO6
++N5TWxAAv31l8Jr2BcB8ehkbZi2hGLYzmIxAV7F1X5gxt2Ndmpl2t73txu2d04D6
+I2+pxw2BySC+fqBk15wNf6OIzhMyQnMALFRwqZbmeWX81+IuycncPR9Yin7FDvez
+KeMmjefF2AD9StowZt13tVE0Ms5mE5zHwWsQ1TgVaJtHIJzkKLqXkakWFQFnvYUP
+0TIPEKcmZ5vG7+Lnm3luRUl4k6s9X1IjNs1O1BmIz9H8beaxmZw1+/rK+ZN9mnjT
+TodtLQTjWnHG3Zv/Q1iUKIkr7XwVaP3F0B5k1vXPfuEHCRSGH9Tvkmm6ctTgBBWV
+QpBdbw3y3pg32t5pOqPhgWN4zU74+r1LIecyQ8QVkRS0mGm7dgiazHRzEWcz4/aS
+V2zP46BgvnymvsxQxOugxg19csbh/aqaWXBIec5tZSxIw2LNpP3RXEW3yYQJQ8kz
+/2fIEbTS2uOHh4SJMmktf5Re/r27VQXEnQb7s0FahwJ4ZG1c/nipNMRDlVFsafyQ
+rD/a+2JP1Cf+GX+v+Ywmb8w7mRwhPAKqd99Mb8HxjlctLSnD/41AXL9u5OS1ZFit
+Icnq8F5oBdCQ61hbzN3wzjJGBeM7SPA6e0qYs1sqZSQLNCDnMuyefMSn4mV2WlNB
+yx9Js6Qz3ktWKtP6KVtsu45HO6PhPVcWk/9iuG7wJTy8n9jadkk=
+=lDS7
 -----END PGP SIGNATURE-----
