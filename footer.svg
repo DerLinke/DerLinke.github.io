@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="500" height="120">
+  <g font-family="monospace" font-size="14">
+    <text x="10" y="20" fill="#58a6ff">----------------------------------------------------</text>
+    <text x="20" y="45" fill="#c9d1d9" font-weight="bold">MeinProjekt v1.0.0</text>
+    <text x="20" y="70" fill="#8b949e">Web: <tspan fill="#58a6ff" text-decoration="underline">https://derlinke.github.io/</tspan></text>
+    <text x="20" y="95">
+      <tspan fill="#FF0000">██</tspan>
+      <tspan fill="#A1005E">██</tspan>
+      <tspan fill="#0000FF">██</tspan>
+    </text>
+    <text x="10" y="115" fill="#58a6ff">====================================================</text>
+  </g>
+</svg>

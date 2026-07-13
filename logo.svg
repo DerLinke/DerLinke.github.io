@@ -6,11 +6,11 @@
     </linearGradient>
   </defs>
   <g font-family="monospace" font-size="16" font-weight="bold">
-    <text x="10" y="20" fill="url(#red-blue-grad)" xml:space="preserve">          ██     █████</text>
-    <text x="10" y="38" fill="url(#red-blue-grad)" xml:space="preserve">     ██                    ██</text>
-    <text x="10" y="56" fill="url(#red-blue-grad)" xml:space="preserve">██                █████</text>
-    <text x="235" y="56" fill="#58a6ff">Developed with ❤️ by DerLinke &amp; Gemini CLI.</text>
-    <text x="10" y="74" fill="url(#red-blue-grad)" xml:space="preserve">     ██                    ██</text>
-    <text x="10" y="92" fill="url(#red-blue-grad)" xml:space="preserve">          ██     █████</text>
+    <text x="10" y="20" fill="url(#red-blue-grad)" xml:space="preserve">      ██   █████</text>
+    <text x="10" y="38" fill="url(#red-blue-grad)" xml:space="preserve">   ██             ██</text>
+    <text x="10" y="56" fill="url(#red-blue-grad)" xml:space="preserve">██          ██</text>
+    <text x="155" y="56" fill="#58a6ff">Developed with ❤️ by DerLinke</text>
+    <text x="10" y="74" fill="url(#red-blue-grad)" xml:space="preserve">   ██             ██</text>
+    <text x="10" y="92" fill="url(#red-blue-grad)" xml:space="preserve">      ██   █████</text>
   </g>
 </svg>

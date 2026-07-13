@@ -15,6 +15,7 @@ cp /home/dan/Projekte/findeb/findeb*.deb "$REPO_DIR/pool/main/" 2>/dev/null || t
 cp /home/dan/Projekte/Ultimate-Debian-Updater/ultimate-debian-updater*.deb "$REPO_DIR/pool/main/" 2>/dev/null || true
 cp /home/dan/Projekte/mydash/mydash*.deb "$REPO_DIR/pool/main/" 2>/dev/null || true
 cp /home/dan/Projekte/gAlert/galert*.deb "$REPO_DIR/pool/main/" 2>/dev/null || true
+cp /home/dan/Projekte/Gnotify-AI/gnotify-ai*.deb "$REPO_DIR/pool/main/" 2>/dev/null || true
 
 # Erstelle APT-Indexe
 echo "󰚌 Generiere APT-Indexe..."

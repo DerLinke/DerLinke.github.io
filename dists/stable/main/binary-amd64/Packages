@@ -26,6 +26,20 @@ Section: utils
 Priority: optional
 Description: Freesound CLI Sound Installer for Linux
 
+Package: gnotify-ai
+Version: 1.0.0
+Architecture: amd64
+Maintainer: DerLinke <admin@derlinke.github.io>
+Depends: python3, python3-pip, python3-pil, python3-requests, python3-tk, libnotify-bin
+Filename: pool/main/gnotify-ai_1.0.0_amd64.deb
+Size: 17368
+MD5sum: ba6507783f9302bd01fc75ce29d4967a
+SHA1: 1d0c492a140c7abcbf13910134c4f5b9a632cb1d
+SHA256: a9eca396212fc9ce46979980b952fde831eafe8d815bc16701b226a350c4bd98
+Section: utils
+Priority: optional
+Description: Gnotify-AI - AI-driven system notifications with TTS capabilities
+
 Package: mydash
 Version: 0.1.0
 Architecture: amd64
