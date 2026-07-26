@@ -55,4 +55,9 @@ cd dists/stable
 generate_hashes md5 "MD5Sum"
 generate_hashes sha256 "SHA256"
 
+echo "󰚌 Signiere Release-Datei..."
+rm -f Release.gpg InRelease
+gpg --homedir "$REPO_DIR/.gpg" --pinentry-mode loopback -abs -o Release.gpg Release
+gpg --homedir "$REPO_DIR/.gpg" --pinentry-mode loopback --clearsign -o InRelease Release
+
 echo "✅ Repository-Struktur lokal vorbereitet in $REPO_DIR"
